@@ -97,6 +97,7 @@ h4 {
 
 .card-holder {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     padding: 50px;
 }
@@ -115,4 +116,37 @@ h4 {
     height: 200px;
     width: 200px;
     border-radius: 20px;
+}
+
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    background: #E5E7EB;
+    align-items: center;
+    justify-content: space-around;
+    padding: 150px;
+    flex-basis: 300px;
+}
+
+
+
+.quote {
+    display: flex;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    flex: 1 1 auto;
+}
+
+.citation {
+    color: #1F2937;
+    font-size: 22px;
+    margin-left: 0;
+    justify-self: flex-end;
+}
+
+.contain {
+    display: flex;
+    flex-direction: column;
 }
