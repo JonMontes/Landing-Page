@@ -57,6 +57,14 @@ h4 {
     text-align: center;
 }
 
+footer {
+    background-color: #1F2937;
+    display: flex;
+    padding: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
 .hero {
     display: flex;
     align-items: center;
@@ -159,14 +167,13 @@ h4 {
 
 }
 
+/*this is the call to action */
+
 .call-action {
-    display: flex;
-    justify-content: space-between;
     border-radius: 5px;
     background: #3882F6;
-    padding: 50px 600px 50px 600px;
+    padding: 55px;
     margin: 100px;
-
 }
 
 .text {
@@ -188,5 +195,19 @@ h4 {
     color: #E5E7EB;
     font-size: 15px;
     border-radius: 8px;
-    padding: 5px 25px 5px 25px;
+    padding: 5px 30px 5px 30px;
+    margin: 5px;
+}
+
+.column {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
 }
