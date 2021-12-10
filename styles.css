@@ -43,7 +43,7 @@ p {
 
 button {
     background: #3882F6;
-    border: 1px solid #3882F6;;
+    border: 1px solid white;
     color: #E5E7EB;
     font-size: 15px;
     border-radius: 8px;
@@ -149,4 +149,44 @@ h4 {
 .contain {
     display: flex;
     flex-direction: column;
+}
+
+.action-container {
+    display: flex;
+    background:#F9FAF8;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.call-action {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    background: #3882F6;
+    padding: 50px 600px 50px 600px;
+    margin: 100px;
+
+}
+
+.text {
+    color: white;
+}
+
+.call {
+    font-weight: 900;
+    color: white;
+    font-size: 25px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #3882F6;
+    border: 1px solid white;
+    color: #E5E7EB;
+    font-size: 15px;
+    border-radius: 8px;
+    padding: 5px 25px 5px 25px;
 }
